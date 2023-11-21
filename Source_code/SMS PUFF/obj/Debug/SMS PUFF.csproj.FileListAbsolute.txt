@@ -1,0 +1,16 @@
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\bin\Debug\SMS PUFF.exe.config
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\bin\Debug\SMS PUFF.exe
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\bin\Debug\SMS PUFF.pdb
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\obj\Debug\SMS PUFF.csproj.AssemblyReference.cache
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\obj\Debug\SMS_PUFF.formulario_principal.resources
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\obj\Debug\SMS_PUFF.Properties.Resources.resources
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\obj\Debug\SMS PUFF.csproj.GenerateResource.cache
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\obj\Debug\SMS PUFF.csproj.CoreCompileInputs.cache
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\obj\Debug\SMS PUFF.exe
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\obj\Debug\SMS PUFF.pdb
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\obj\Debug\SMS_PUFF.send_sms.resources
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\bin\Debug\SMS PUFF.exe.manifest
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\bin\Debug\SMS PUFF.application
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\obj\Debug\SMS PUFF.exe.manifest
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\obj\Debug\SMS PUFF.application
+C:\Users\baa4t\source\repos\SMS PUFF\SMS PUFF\obj\Debug\SMS PUFF.TrustInfo.xml

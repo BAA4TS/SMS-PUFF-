@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SMS PUFF.exe" version="1.0.4.4" publicKeyToken="4a6ed3df7c5729d1" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="equals_rectangle_icon_259192.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SMS PUFF" version="1.0.0.0" publicKeyToken="4A6ED3DF7C5729D1" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SMS PUFF.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opciones del manifiesto UAC
+             Si quiere cambiar el nivel del Control de cuentas de usuario de Windows reemplace el 
+             nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Especificar el elemento requestedExecutionLevel deshabilitará la virtualización de archivos y registros. 
+            Quite este elemento si la aplicación necesita esta virtualización para la compatibilidad
+            con versiones anteriores.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMS PUFF.exe" size="56392">
+      <assemblyIdentity name="SMS PUFF" version="1.0.0.0" publicKeyToken="4A6ED3DF7C5729D1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>noml9k8eaNHh+VtOkDPPDUrHjaS2/nScWUq9SXt2+3I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="equals_rectangle_icon_259192.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JSSwca//ZFg/P12Zy9bVoNRi4nCrEikQ7NqeBvEFcxI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SMS PUFF.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Una lista de las versiones de Windows en la que se ha probado esta aplicación y
+           con la que se ha diseñado para que trabaje. Quite la marca de comentario de los elementos adecuados y Windows seleccionará 
+           automáticamente el entorno más compatible. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN={69C57E44-0C8A-4364-AF12-9F28A29D8AA3}" issuerKeyHash="8eef2395d1277d6352b534bf50dd2a7d208ef1cb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fGlhbxYph9nxLX6qbi7N7uBO5a0yQpkE03OYePPhgXU=</DigestValue></Reference></SignedInfo><SignatureValue>PT5eec5pIaEClA9jmhU0XN7RdClgyDoBn3MR/CRTBv/naAaYuDTraJLMBCrUk9eD8CJJQYcA1yCYiBtJnV+6Xz0VvjQaSGXDjHC3RvPxwmCZ5ZYcP5rb9u3FCuC1+RbzcH4uezgadBNuGngG8Iyf27NxFTtmav23dGVaaWPJOjo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oJ7xqV6uyrB2BPjLUq1aIUXgvvGcnUepdEb7/UedhK1ehrN95nmcBxFmqZIhp8ApBN4cCWGgeqSrTUw2LV1PWY0mIjSPcIlCd+Q2S1rVYIztbw5rOgtjXgrPRDH1cxB4wfli3r4GIbwsOmEalmqE7bRxiimQ6AJku5cJMe0UZj0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7581e1f3789873d304994232ade54ee0eecd2e6eaa7e2df1d98729166f61697c" Description="" Url=""><as:assemblyIdentity name="SMS PUFF.exe" version="1.0.4.4" publicKeyToken="4a6ed3df7c5729d1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN={69C57E44-0C8A-4364-AF12-9F28A29D8AA3}</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5hfiPb89qC+wDbQxpTHd87aGdthadFrUNcpwDEJHA4c=</DigestValue></Reference></SignedInfo><SignatureValue>ff7KsYghu3Ad9KoFL7/ASoc6KWFrupokdvfKKP6cBwWrsGG3SwDdxsjZ2lHHU3WGBgNDy2oQztfRaReUmXrHO8Ykq8bvFXU+zqzXEIXGBNfqjatIq3kW1l3pGGC58t/ihOuEvP07cR1ddJ2XSDuOE+6ezinc7FY1vEuLoneXbt4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oJ7xqV6uyrB2BPjLUq1aIUXgvvGcnUepdEb7/UedhK1ehrN95nmcBxFmqZIhp8ApBN4cCWGgeqSrTUw2LV1PWY0mIjSPcIlCd+Q2S1rVYIztbw5rOgtjXgrPRDH1cxB4wfli3r4GIbwsOmEalmqE7bRxiimQ6AJku5cJMe0UZj0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICMTCCAZqgAwIBAgIQLVmnwjMimpRHQYcC3miucjANBgkqhkiG9w0BAQsFADBXMVUwUwYDVQQDHkwAewA2ADkAQwA1ADcARQA0ADQALQAwAEMAOABBAC0ANAAzADYANAAtAEEARgAxADIALQA5AEYAMgA4AEEAMgA5AEQAOABBAEEAMwB9MB4XDTIzMTEyMTIyNDc1MVoXDTI0MTEyMTA0NDc1MVowVzFVMFMGA1UEAx5MAHsANgA5AEMANQA3AEUANAA0AC0AMABDADgAQQAtADQAMwA2ADQALQBBAEYAMQAyAC0AOQBGADIAOABBADIAOQBEADgAQQBBADMAfTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoJ7xqV6uyrB2BPjLUq1aIUXgvvGcnUepdEb7/UedhK1ehrN95nmcBxFmqZIhp8ApBN4cCWGgeqSrTUw2LV1PWY0mIjSPcIlCd+Q2S1rVYIztbw5rOgtjXgrPRDH1cxB4wfli3r4GIbwsOmEalmqE7bRxiimQ6AJku5cJMe0UZj0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBEE4eLmDXvtmKdPAwoqZVSNBieMly9bu6FPA3r3BO6ThI1td7kGAt/RjgS3ZSawjsK1Au2rVHnx3WmP72JfvlCF5KWByT8jFqJ3MMHDsFMnZ1T6Q9yNVVmn/iJ7VUd/bSNvkumpHxON+mD6zGzUcT/+agWBBUWIIxnE8yofqWwxg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
