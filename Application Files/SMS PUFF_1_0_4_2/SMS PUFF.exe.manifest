@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SMS PUFF.exe" version="1.0.4.2" publicKeyToken="bf9cd0d112cffc1b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SMS PUFF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SMS PUFF.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMS PUFF.exe" size="51168">
+      <assemblyIdentity name="SMS PUFF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cqH6ImP66Ittra/4FnL4uCqwgXkm4xOjDIWfKeip2q8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="equals_rectangle_icon_259192.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JSSwca//ZFg/P12Zy9bVoNRi4nCrEikQ7NqeBvEFcxI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SMS PUFF.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-3H8G6RR\baa4t" issuerKeyHash="89df72985bf9e70c536e87033cba25a108adc25a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/7PtoY/fNF/g4M5UkvWXWDFEWowpTlu5njYjUxr97hU=</DigestValue></Reference></SignedInfo><SignatureValue>3EKn86vb6KJSlCpZrcb4i/jJ1fqsZWSR21vUWc0dzd/+xAFkd8jEXPCQvcJtz5lIuADzKXvyQP+N3oYX/IWNuMsPd+Dr4P7rJN4OUyidwTBa8hK+kJ0mBR/R6dJzv8c2TIQJnU0PUGl6RdBuueUe33Kq4QJOyr9v++8qSsVN5Y4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7sN6In59P4XYU7pZ269ITVLzfDWS4yB0yR9sIMA0bU9SYquDWbazuhkgnPbLMOawxeh8HSWNKsYbmXRSRKfobZzTQfzXs3SYVxLv/DjLQ5tXgt38EkemD437nZHiXyegN+3G/NYltusLyKAKFKtXv1XFK6bwWwq2cPs/5qLbvOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="15eefd1a5323369eb95b4e298c5a44315897f59254cee0e05f34df8fa1edb3ff" Description="" Url=""><as:assemblyIdentity name="SMS PUFF.exe" version="1.0.4.2" publicKeyToken="bf9cd0d112cffc1b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-3H8G6RR\baa4t</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mBgZ8O1/AitVz+bK9EZX5TTL2Nu7OFnTjXIt5jQbBVM=</DigestValue></Reference></SignedInfo><SignatureValue>n7pnrHjDA1w/jINW9D3quxHAIHeRtI3EBXAfhsN8hV/yyTm/LEvpc0kKof8ZrYaVMwsY7EZMLYPkMYTs6Yk0Ztx19OWWUSnkE5eb6M/QIOIjNHMTMysJBcmIrrK9MMmbEOSrVfxc9UBAY9JBBK3bAAH4Bbo78bE7dIjcsNSuyNc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7sN6In59P4XYU7pZ269ITVLzfDWS4yB0yR9sIMA0bU9SYquDWbazuhkgnPbLMOawxeh8HSWNKsYbmXRSRKfobZzTQfzXs3SYVxLv/DjLQ5tXgt38EkemD437nZHiXyegN+3G/NYltusLyKAKFKtXv1XFK6bwWwq2cPs/5qLbvOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQW6DDunchha1KJv84+ueq3zANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMASAA4AEcANgBSAFIAXABiAGEAYQA0AHQwHhcNMjMxMTIxMjIzMzUxWhcNMjQxMTIxMDQzMzUxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMASAA4AEcANgBSAFIAXABiAGEAYQA0AHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO7DeiJ+fT+F2FO6WduvSE1S83w1kuMgdMkfbCDANG1PUmKrg1m2s7oZIJz2yzDmsMXofB0ljSrGG5l0UkSn6G2c00H817N0mFcS7/w4y0ObV4Ld/BJHpg+N+52R4l8noDftxvzWJbbrC8igChSrV79VxSum8FsKtnD7P+ai27zhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAPuOQj26g8cIem33cehcXPvzZY0I5mr97+46wxWDsF7yFIelvdx79KbzY9pBifD4z15maryID0+dWtnB2YPNEeaziat5TsKO5ZkTMBjDl0nmw4P/2PzZARHnrvvoHTxfchJhgDsD1DraRjwHUHE4EEDRxHt+hWVOJ0TWGedOh7rM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
